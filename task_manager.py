@@ -132,7 +132,7 @@ def main():
             if task_to_mark:
                 # Mark the found task as completed
                 task_to_mark.mark_as_completed()
-                print(f"Task marked as completed!\n")
+                print("Task marked as completed!\n")
                 task_manager.save_tasks_to_file()  # Save tasks after marking as completed
             else:
                 print("ERROR: Task not found. Please enter a valid task title.\n")
